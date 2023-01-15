@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  color: #666;
+  background: #f2f2f2;
+  font-size: 18px;
+  line-height: 1.5em;
+
+  /* Fondo de pantalla generado por: https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/ */
+  background-color: #ee5522;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23d23d09' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+h1 {
+  font-size: 32px;
+  color: grey;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+  margin: 8px;
+}
+
+.p1 {
+  font-size: 32px;
+}
+
+.p2 {
+  font-size: 24px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.foto_perfil {
+  margin-top: 20px;
+}
+
+/* Encabezado */
+/* ========== */
+#encabezado {
+  background: #333;
+  color: white;
+
+  height: 60px;
+  width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+  left: 0; /* Posicionamos la cabecera al lado izquierdo */
+  top: 0; /* Posicionamos la cabecera pegada arriba */
+  position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+#encabezado a {
+  color: white;
+}
+
+/* Menu */
+nav {
+  float: right;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 60px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background: #0b76a6;
+}
+
+/* Cuerpo de la pagina */
+/* =================== */
+#cuerpo {
+  background: white;
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#cuerpo .perfil {
+  padding: 40px;
+}
+
+#cuerpo #experiencia .trabajo {
+  margin-block-end: 4em;
+}
+
+/* Pie de pagina */
+/* ============= */
+#pie {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+#pie p {
+  margin: 0;
+}
